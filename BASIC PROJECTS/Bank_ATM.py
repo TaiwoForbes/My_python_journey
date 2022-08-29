@@ -9,7 +9,7 @@ Pay_In_amount = [100,500,1000,2000]
 attempt = 3
 balance = 30000
 while attempt >= 0:
-    pin = int(input("Enter your 4 digit pin which is ""1234 by"" default: "))
+    pin = int(input("Enter your 4 digit pin which is 1234 by default: "))
     if pin == (1234):
         print("You have entered the correct pin")
         while restart not in dont_restart:

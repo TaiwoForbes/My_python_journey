@@ -1,3 +1,3 @@
 dict = {"color": "red", "age": 19}
-for i in dict.items():
-    print(i[0][1])
+for keys,values in dict.items():
+    print(keys,values)
