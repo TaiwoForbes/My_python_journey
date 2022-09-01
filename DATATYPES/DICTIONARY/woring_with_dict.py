@@ -1,4 +1,5 @@
-dict = {"color": "red", "age": 19}.sorted()
+dict = {"color": "red", "age": 19}
+
 # Adding a new key with value to a dictionary
 dict["sex"] = "male"
 print(dict)
