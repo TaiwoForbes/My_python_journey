@@ -76,5 +76,3 @@ print()
 # Using slice in nestec loop
 print(alist[1][1:])
 
-mylist = [None] * 10
-print(mylist)

@@ -9,5 +9,5 @@ sum = 0
 for i in range(1000):
     if i % 2 == 0 and "9" in str(i):
             sum = sum + 1
-            print(i)
+            
 print((sum))

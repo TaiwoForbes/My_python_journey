@@ -52,7 +52,4 @@ print(my_char_array.tostring())'''
 # Convert an array to a list using tolist method
 c = my_array.tolist()
 print(c)
-
-my_char_array = array('c', ['g','e','e','k']) 
-my_char_array.fromstring("stuff") 
-print(my_char_array) 
+ 

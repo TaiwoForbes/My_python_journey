@@ -6,4 +6,4 @@ L1 = ["Harry", "Saham", "Sacham","Rahaul"]
 
 for names in L1:
     if names[0] == 'S':
-        print("hello" + " " + names)
+        print("Hello" + " " + names)

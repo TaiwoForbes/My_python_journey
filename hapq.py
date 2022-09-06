@@ -28,15 +28,16 @@ print(youngest)
 print()
 print()
 
+# Smallest item in a collection
 numbers = [10, 4, 2, 100, 20, 50, 32, 200, 150, 8]
 heapq.heapify(numbers)
 print(numbers)
 print()
 print()
 
-heapq.heappop(numbers) 
+heapq.heappop(numbers) # 2
 print(numbers)
 print()
 print()
-heapq.heappop(numbers)
+heapq.heappop(numbers) # 4
 print(numbers)

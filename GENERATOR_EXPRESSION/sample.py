@@ -13,4 +13,3 @@ print(next(gen))
 
 for i in (x ** 2 for x in range(10)):
     print(i) # i iterate over the gen
-    print(type(i))

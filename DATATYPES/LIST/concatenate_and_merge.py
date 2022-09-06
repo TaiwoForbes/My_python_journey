@@ -17,3 +17,5 @@ clist = ['c1', 'c2', 'c3', 'c4']
 for a,b,c in itertools.zip_longest(alist,blist,clist):
     print(a,b,c)
 print(len(list(zip(alist,blist,clist))))
+
+

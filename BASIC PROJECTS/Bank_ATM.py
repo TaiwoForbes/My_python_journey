@@ -2,10 +2,10 @@ import sys
 import time
 
 print("Welcome to Taiwo Forbes Banking ATM")
-restart = ["YES","y","Y"]
-dont_restart = ["n", "No","no","N"]
-withdraw_amount = [10,20,50,100]
-Pay_In_amount = [100,500,1000,2000]
+restart = ["YES", "y", "Y"]
+dont_restart = ["n", "No", "no", "N"]
+withdraw_amount = [10, 20, 50, 100]
+Pay_In_amount = [100, 500, 1000, 2000]
 attempt = 3
 balance = 30000
 while attempt >= 0:
@@ -23,7 +23,8 @@ while attempt >= 0:
                 print("Please wait while we retrieve your Balance......\n")
                 time.sleep(1)
                 print("Your Balance is {}".format(balance))
-                restart = input("Would you like to perform another Transaction:[y/n]\n")
+                restart = input(
+                    "Would you like to perform another Transaction:[y/n]\n")
                 if restart in dont_restart:
                     print("Thank You")
                     sys.exit()
@@ -34,8 +35,10 @@ while attempt >= 0:
                     balance = balance - withdraw
                     print("Please wait while we process your request......\n")
                     time.sleep(1)
-                    print("You Withdraw {}.\nYour new Balance is {}".format(withdraw,balance))
-                    restart = input("Would you like to perform another Transaction:[y/n]\n")
+                    print("You Withdraw {}.\nYour new Balance is {}".format(
+                        withdraw, balance))
+                    restart = input(
+                        "Would you like to perform another Transaction:[y/n]\n")
                     if restart in dont_restart:
                         print("Thank You")
                         sys.exit()
@@ -51,8 +54,10 @@ while attempt >= 0:
                 time.sleep(1)
                 if Pay_In in Pay_In_amount:
                     balance = balance + Pay_In
-                    print("You Pay-In {}.\nYour new Balance is {}".format(Pay_In,balance))
-                    restart = input("Would you like to perform another Transaction:[y/n]\n")
+                    print(
+                        "You Pay-In {}.\nYour new Balance is {}".format(Pay_In, balance))
+                    restart = input(
+                        "Would you like to perform another Transaction:[y/n]\n")
                     if restart in dont_restart:
                         print("Thank You")
                         sys.exit()
