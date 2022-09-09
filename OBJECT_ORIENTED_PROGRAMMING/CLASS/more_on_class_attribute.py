@@ -15,7 +15,7 @@ class Item:
 
         # Action to perform
         Item.all.append(self)
-        print("An instance is created {} {} {}".format(name,price,quantity))
+       
     
     def __repr__(self):
         # The repr prints the strings representation of an object

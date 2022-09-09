@@ -17,7 +17,7 @@ class Item:
 
         # Action to perform
         Item.all.append(self)
-        print("An instance is created {} {} {}".format(name,price,quantity))
+        
 
     @classmethod # The class method use the class reference as the first argument
     def instantiate_from_csv(cls):
