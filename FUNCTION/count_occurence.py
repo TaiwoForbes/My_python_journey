@@ -9,6 +9,6 @@ def check(string, value):
         
 
 string = "taaaiwo"
-value = "i"
+value = "a"
 c = check(string, value)
 print(c)

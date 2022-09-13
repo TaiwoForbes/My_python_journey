@@ -23,8 +23,7 @@ while attempt >= 0:
                 print("Please wait while we retrieve your Balance......\n")
                 time.sleep(1)
                 print("Your Balance is {}".format(balance))
-                restart = input(
-                    "Would you like to perform another Transaction:[y/n]\n")
+                restart = input("Would you like to perform another Transaction:[y/n]\n")
                 if restart in dont_restart:
                     print("Thank You")
                     sys.exit()
