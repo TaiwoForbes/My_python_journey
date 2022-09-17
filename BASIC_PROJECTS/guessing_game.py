@@ -35,7 +35,7 @@ def playgame():
     else:
         return False
 
-if "__main__" == __name__:
+if __name__ =="__main__":
     while playgame():
         pass
 

@@ -1,6 +1,6 @@
 """
 An in place function wont work in a comprehension
-since an in place function modifies the exsting object,
+since an in place function modifies the existing object,
 they are also call side effect function
 """
 in_place = [x.sort() for x in [[2, 1], [4, 3], [0, 1]]]

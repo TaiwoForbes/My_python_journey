@@ -31,4 +31,3 @@ pattern = re.compile(r'\d')
 matches = pattern.finditer(test_strings)
 for match in matches:
     print(match)
-

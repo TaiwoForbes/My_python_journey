@@ -1,20 +1,8 @@
-import json
+ls = ["taiwo", "kehinde", 4,5,6,5,6,7,8]
+for i,item in enumerate(ls):
+    if i == 3 or i == 5 or i == 7:
+        if item < len(ls):
 
-'''with open("a.txt", "r") as f:
-    resd = json.load(f)
-    print(resd)'''
-
-
-d = {
-    'foo': 'ba',
-    'alice': 1,
-    'wonderland': [1, 2, 3]
-}
-
-with open("a.txt", "w") as f:
-    (json.dump(d,f,indent = 5))
-    (json.dump(d,f,indent = 5))
-    (json.dump(d,f,indent = 5))
-    (json.dump(d,f,indent = 5))
-    (json.dump(d,f,indent = 5))    
-  
+            print(item,end= "")
+        else:
+            print()

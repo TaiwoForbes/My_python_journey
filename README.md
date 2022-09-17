@@ -1,2 +1,44 @@
-# MY PYTHON JOURNEY
-* This repository contains my journey to becoming a proficient python programmer.
+# MY PYTHON JOURNEY | Python Project :computer:
+
+## Description
+This repository contains my journey to becoming a proficient python programmer.
+
+---
+## Table of Contents :open_file_folder:
+
+### [ARRAYS](ARRAYS)
+
+### [BASIC_PROJECTS](BASIC_PROJECTS)
+
+### [CONDITIONALS](CONDITIONALS)
+
+### [DATATYPES](DATATYPES)
+
+### [DATE_AND_TIME](DATE_AND_TIME)
+
+### [ENUM](ENUM)
+
+### [FILES-AND_FOLDER_I_O](FILES-AND-FOLDER_I_O)
+
+### [FUNCTION](FUNCTION)
+
+### [GENERATOR_EXPRESSION](GENERATOR_EXPRESSION)
+
+### [JSON_MODULE](JSON_MODULE)
+
+### [LOOPS](LOOPS)
+
+### [OBJECT_ORIENTED_PROGRAMMING](OBJECT_ORIENTED_PROGRAMMING)
+
+### [OS_MODULE](OS_MODULE)
+
+### [RANDOM_MODULE](RANDOM_MODULE)
+
+### [RECURSION](RECURSION)
+
+### [REGULAR_EXPRESSION](REGULAR_EXPRESSION)
+
+### [STRING_FORMATTING](STRING_FORMATTING)
+
+### [VARIABLE_AND_DATATYPES](VARIABLE_AND_DATATYPES)
+
