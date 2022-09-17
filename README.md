@@ -18,6 +18,8 @@ This repository contains my journey to becoming a proficient python programmer.
 
 ### [ENUM](ENUM)
 
+### [EXCEPTION_HANDLING](EXCEPTION_HANDLING)
+
 ### [FILES-AND_FOLDER_I_O](FILES-AND-FOLDER_I_O)
 
 ### [FUNCTION](FUNCTION)
