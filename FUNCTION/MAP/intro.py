@@ -3,6 +3,20 @@
    the original collection and inserts each return value into the new collection. 
    It returns the new collection.
 """
+
+One2ten = range(1,10)
+double_num = lambda x : x * 2
+print(list(map(double_num,One2ten)))
+print()
+print()
+
+list1 = [1,2,3,4,6]
+list2 = [4,6,8,9,2]
+print(list(map(lambda x,y : x + y, list1,list2)))
+print()
+print()
+
+
 lst = ["Ayo", "mary", "tunde"]
 name = list(map(len, lst))
 print(name)
