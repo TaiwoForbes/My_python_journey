@@ -31,11 +31,16 @@ class Item:
     def price(self):
         return self.__price
 
-    @name.setter
-    def name(self, value):
-        self.__name = value
+    @name.setter # Setter is used when we still want to make ammendment to our private/property attribute
+    def name(self,value):
+        if len(value) > 10:
+            raise Exception ("String is too big")
+        else:
+            self.__name = value
+
     def increment(self,value):
         self.price = self.__price + (self.__price * value) 
+
     def apply_discount(self):
         self.price = self.__price * self.pay_rate
 
@@ -72,4 +77,3 @@ class Item:
         
     def calculate_total_price(self):
         return self.price * self.quantity
-    

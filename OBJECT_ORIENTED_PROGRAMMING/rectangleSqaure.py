@@ -1,25 +1,44 @@
-class Rectangle:
-    def __init__(self, length, breath):
-        self.length = length
-        self.breath = breath
+class Square:
+    def __init__(self, width="0", height="0"):
+        self.__width = width
+        self.__height = height
 
-    def area(self):
-        return (self.length * self.breath)
+    @property
+    def width(self):
+        return self.__width
+
+    @width.setter
+    def width(self, value):
+        if value.isdigit():
+            self.__width = value
+        else:
+            print("Enter a valid number")
+
+    @property
+    def height(self):
+        return self.__height
+
+    @height.setter
+    def height(self, value):
+        if value.isdigit():
+            self.__height = value
+        else:
+            print("Enter a valid number")
+
+    def getArea(self):
+        return int(self.__height) * int(self.__width)
 
     def perimeter(self):
-        return 2 * (self.length + self.breath)
+        return 2 * int(self.__width) + int(self.__height)
 
 
-class Square(Rectangle):
-    def __init__(self, s):
-        super(Square,self).__init__(s,s)
-        self.s = s
-        
+if __name__ == "__main__":
+    square1 = Square()
+    height = input("Enter height: ")
+    width = input("Enter width: ")
 
+    square1.width = width
+    square1.height = height
 
-rectangle = Rectangle(4, 2)
-print(rectangle.area())
-print(rectangle.perimeter())
-sqaure = Square(2)
-print(sqaure.area())
-print(sqaure.perimeter())
+    print(square1.getArea())
+    print(square1.perimeter())
