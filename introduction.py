@@ -1,11 +1,3 @@
-import random
-head_or_Tail = []
-
-for i in  range(1,101):
-    choice = random.choice(["H","T"])
-    head_or_Tail.append(choice)
-
-    
-print(head_or_Tail.count("H"))
-print(head_or_Tail.count("T"))
-
+set1 = {1,2,3,4}
+set2 = {5,1,2,3,5}
+print(set1 ^ set2)

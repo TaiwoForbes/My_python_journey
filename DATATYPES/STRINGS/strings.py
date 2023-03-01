@@ -19,5 +19,5 @@ print()
 
 strings = "Welcome to first Bank"
 # Circle through in pairs
-for i in range(0, len(strings) - 1,2):
+for i in range(0, len(strings) - 1):
     print(strings[i] + strings[i+1])
