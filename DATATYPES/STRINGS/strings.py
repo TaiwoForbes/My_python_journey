@@ -9,6 +9,9 @@ print(str[0:4])
 print(str[-1])
 
 print("------->")
+print(str)
+
+print("------->")
 
 
 i = 0
