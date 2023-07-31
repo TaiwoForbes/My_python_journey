@@ -32,7 +32,7 @@ print()
 
 
 """
-Exception handling occurs based on an exception hierarchy, determined by the inheritance structure of the
+Exception handling occurs based on an exception hierarchy, determined by the inheritance structure of th
 exception classes.
 
 For example, IOError and OSError are both subclasses of EnvironmentError. Code that catches an IOError will not

@@ -1,7 +1,7 @@
 import re
 # Compilation Flags:
 # ASCII, A : Makes several escapes like \w, \b, \s nad \d match only on ASCII characters
-# DOTALL, S : Makes . match all character, including newlines
+# DOTALL, S : Makes . matches all character, including newlines
 # IGNORECASE, I : Do case-insensitive matches.
 # LOCALE, L : Do a locale-aware match. 
 # MULTILINE, M : Multi-line matching, affecting ^ and $
