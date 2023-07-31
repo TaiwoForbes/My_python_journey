@@ -77,3 +77,4 @@ class Item:
         
     def calculate_total_price(self):
         return self.price * self.quantity
+

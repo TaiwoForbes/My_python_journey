@@ -5,6 +5,8 @@ class Characteristics:
     
     def __str__(self):
         return self.name
+
+
     def rename(self,rename):
         self.name = rename
         print("Now my name is {}".format(rename))
