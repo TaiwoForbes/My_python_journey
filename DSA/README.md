@@ -1,0 +1,1 @@
+This directory covers everything about Data Structure and algorithm using python
