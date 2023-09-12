@@ -1,7 +1,7 @@
 # MY PYTHON JOURNEY | Python Project :computer:
 
 ## Description
-This repository contains my journey to becoming a proficient python programmer.
+This repository contains my journey to becoming a proficient python programmer..
 
 ---
 ## Table of Contents :open_file_folder:
